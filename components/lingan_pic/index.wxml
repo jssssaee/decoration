@@ -1,0 +1,22 @@
+<!--components/lingan_pic/index.wxml-->
+<view class="atlas">
+  <text> 北欧风格</text>
+<view class="atlas_list">
+  <view class="atlas_case" wx:for="{{atlas_arr}}" bindtap="toStyleDetail" data-id="{{index}}">
+  <image src="{{item.url}}"></image>
+  <view class="atlas_intro">{{item.text}}</view>
+   <view class="atlas_pic">
+ <view class="atlas_pic_img">
+ <image src="/images/collect.png"></image>
+  </view>
+ <text>324</text>
+   <view class="atlas_pic_classify">客厅</view>
+ </view>
+</view>
+
+
+</view>
+
+
+</view>
+

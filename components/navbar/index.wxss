@@ -1,0 +1,60 @@
+/* components/navbar/index.wxss */
+
+@import '/app.wxss';
+.navbar{position:fixed;background-color:#fff;top:0;left:0;z-index:999;width:100%;}
+.navbar .navbarH{position:relative;}
+.navbar .navbarH .navbarCon{position:absolute;bottom:0;height:100rpx;width:100%;}
+.navbarCon{
+display: flex;
+align-items: center
+}
+
+
+
+view {
+box-sizing: border-box;
+display: block
+}
+
+
+ .icon-xiangzuo{color:#000;font-weight:bold;position:absolute;font-size:40rpx;left:46rpx;width:100rpx;height:56rpx;line-height:54rpx;top:50%;transform:translateY(-50%);}
+
+
+
+.navbar .navbarH .navbarCon .name{color:#0D0D0D;font-size:36rpx;font-weight:bold;width: 300rpx;text-align: center;line-height: 60rpx;overflow: hidden;height:60rpx ;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.navbar .navbarH .navbarCon .name.on{color:#fff;}
+.line1{
+  margin: 0 auto
+}
+
+.addr{
+  font-size: 32rpx;
+  width: 64rpx;
+  height: 32rpx;
+  margin-left: 34rpx;
+}
+.more image{
+  width: 22rpx;
+  height: 10rpx;
+  margin-left: 16rpx
+}
+.input{
+  color: #979797;
+  font-size: 28rpx;
+  width: 520rpx;
+  height: 70rpx;
+line-height: 70rpx;
+margin-left: 55rpx;
+background-color: #F8F6F9;
+border-radius:36rpx;
+
+}
+.input image{
+  width: 26rpx;
+  height: 26rpx;
+  padding-right: 28rpx;
+  margin-left: 37rpx
+}

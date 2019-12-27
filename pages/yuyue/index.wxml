@@ -1,0 +1,50 @@
+<!--pages/yuyue/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+<view class="yuyue" >
+<image src="/images/atlas.png"></image>
+<view class="yuyue_title">
+  在线预约 免费量房
+</view>
+<text class="yuyue_text">大数据精准估价</text>
+
+<view class="yuyue_infor">
+  <form bindreset="formReset" bindsubmit="formSubmit" reportSubmit="true">
+<!-- 位置 -->
+  <view class="text">房屋所在城市</view>
+                <view class="baseinfo-input">
+
+ <picker mode="region" bindchange="bindRegionChange"  custom-item="{{customItem}}"
+                    name="detailed"  class="pic"  >
+
+                  <input name="detail" placeholder="四川省 成都市 锦江区" placeholderClass="placeholder-s" type="text" value="{{detailed}}"  class="input_addr"  ></input>
+
+                  </picker>
+ <text class="addr_choose"  >             
+                    </text>         
+                </view>
+
+
+<!-- 姓名 -->
+  <view class="text">姓名</view>
+                <view class="baseinfo-input">
+                    <input name="Name" placeholder="" placeholderClass="placeholder-s" type="text" value="{{inputName}}"></input>
+                </view>
+
+                <!-- 电话-->
+  <view class="text">联系电话</view>
+                <view class="baseinfo-input">
+                    <input name="Cellphone" placeholder="" placeholderClass="placeholder-s" type="number" value="{{inputTel}}"></input>
+                </view>
+
+
+
+<button class="gujia"  formType="submit" >
+查看估价
+</button>
+</form>
+
+</view>
+
+
+</view>
+

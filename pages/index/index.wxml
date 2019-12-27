@@ -1,0 +1,108 @@
+<!--index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+<view class="index">
+<view class="main">
+<image src="/images/show.png"></image>
+</view>
+
+<view class="mian-list">
+<view wx:for="{{list_arr}}" class="box" wx:key="{{index}}" bindtap="to_style" data-id="{{index}}">
+<view class="img">
+<image src="{{item.url}}" class="img"></image>
+<image src="/images/huo.png" wx:if="{{index==4}}" id="huo"></image>
+</view>
+
+ <view class="intro">{{item.introduce}}</view>
+
+</view>
+</view>
+
+
+
+
+
+ <view class="picture_list">
+ <image wx:for="{{picture_list}}" src="{{item}}" wx:key="{{index}}" bindtap="toQuote" data-id="{{index}}"></image>
+ </view>
+
+<view class="style">
+<text> 装修风格</text>
+
+<!-- <scroll-view class="lunbo" scroll-x  style="width:auto;overflow:hidden;"> -->
+         <!-- <swiper  autoplay="true"  indicator-dots="true"
+                 circular="true" interval="3000" duration="500" indicator-color="rgba(230,230,230, 1)" indicator-active-color="#737373"  class="lunbo">
+
+                 <block wx:for="{{stylearr}}" wx:key="{{index}}">
+               
+           
+                  <swiper-item >
+<image wx:for="{{stylearr}}"  id="{{item.id}}" src="{{item.url}}" wx:key="{{index}}"></image>
+</swiper-item>
+       </block>
+    </swiper> -->
+
+
+<!-- </scroll-view > -->
+
+
+<view class="view_first"> 
+<view class="view_second"  >
+<image wx:for="{{stylearr}}"  id="{{item.id}}" src="{{item.url}}" wx:key="{{index}}"></image>
+<image wx:for="{{stylearr}}"  id="{{item.id}}" src="{{item.url}}" wx:key="{{index}}"></image>
+<image wx:for="{{stylearr}}"  id="{{item.id}}" src="{{item.url}}" wx:key="{{index}}"></image>
+</view>
+</view>
+
+
+
+
+</view>
+
+<view class="case">
+<text> 装修案例</text>
+<view class="case_swiper">
+           <swiper  autoplay="true"  indicator-dots="true"
+                 circular="true" interval="3000" duration="500" indicator-color="rgba(230,230,230,1)" indicator-active-color="#737373">
+ <block wx:for="{{bastBanner}}" wx:key>
+ <swiper-item>
+<view class="case_view">
+<image class="case_img"  src="/images/case.png" ></image>
+</view>
+<view class="case_introduce">
+<view class="introduce1"> 成都高新区装修 时尚简约</view>
+<view class="introduce2">三居室  |  90平方  |  10万  |  北欧风格</view>
+</view>
+</swiper-item>
+       </block>
+      </swiper>
+</view>
+
+</view>
+
+<view class="atlas">
+  <text> 灵感图集</text>
+
+  
+<view class="atlas_list">
+  <view class="atlas_case" wx:for="{{atlas_arr}}">
+  <image src="{{item}}"></image>
+  <view class="atlas_intro">客厅北欧风格装修灵感图 配色搭配</view>
+   <view class="atlas_pic">
+  <view class="atlas_pic_img">
+  <image src="/images/collect.png"></image>
+  </view>
+  <text>324</text>
+   <view class="atlas_pic_classify">客厅</view>
+ </view>
+</view>
+
+
+</view>
+
+
+</view>
+
+
+
+</view>
+

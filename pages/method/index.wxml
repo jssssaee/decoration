@@ -1,0 +1,50 @@
+<!--pages/method/index.wxml-->
+<navbar parameter="{{parameter}}"> </navbar>
+<view class="method">
+
+<view class="method_list">
+<view class="list" wx:for="{{method_arr}}" bindtap="toMethods_list" data-id="{{index}}"> 
+<image src="{{item.url}}"></image>
+<view class="name">{{item.title}}</view>
+</view>
+
+<!-- <view class="hot_recommend">
+<text class="text">热门推荐</text>
+<view wx:for="{{hot_arr}}" class="hot_list">
+
+
+</view>
+</view> -->
+
+</view>
+
+
+<view class="hot_recommend">
+
+<text class="text">热门推荐</text>
+ 
+ <view wx:for="{{hot_arr}}" class="hot_list">
+ <image src="{{item.url}}"></image>
+ <view class="hot_main">
+ <view>{{item.title1}}</view>
+ <view>{{item.title2}}</view>
+
+ <view class="intro3">
+ <image src="{{item.icon1}}" class="tubiao1" ></image>
+<text>324</text>
+<image src="{{item.icon2}}" class="tubiao2"></image>
+<text>3000浏览</text>
+ </view>
+ </view>
+  </view>
+
+
+</view>
+
+
+
+
+
+
+
+</view>

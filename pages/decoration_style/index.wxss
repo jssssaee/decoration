@@ -1,0 +1,16 @@
+/* pages/decoration_style/index.wxss */
+
+
+
+.style{
+   white-space: nowrap;
+}
+.lunbo{
+margin: 50rpx 0 68rpx;
+}
+.lunbo image{
+width: 200rpx;
+height: 300rpx;
+    display: inline-block;
+    margin-left:  30rpx
+}

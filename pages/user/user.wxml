@@ -1,0 +1,74 @@
+<!--pages/user/user.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+
+<view class="user_main">
+
+<!-- user_infor -->
+<view class="header">
+
+<view class="pic_txt">
+<image src="/images/user_head.png" class="user_head"></image>
+
+<view class="text">
+<view class="id">小水</view>
+<view class="phone">手机号：135****1101</view>
+</view>
+</view>
+<view class="set" >
+<image src="/images/set.png"  bindtap="toSet"></image>
+</view>
+</view>
+
+<!-- 收藏，关注 -->
+
+<view class="guanzhu_collect"> 
+<view class="collect" bindtap="toCollect">
+<view>210</view>
+<view>收藏</view>
+</view>
+<view class="guanzhu" bindtap="toGuanzhu">
+<view>40</view>
+<view>关注</view>
+</view>
+</view>
+<!-- serve -->
+<view class="serve">
+<text>服务</text>
+
+<view class="serve_infor">
+<view class="box" bindtap="toSubscribe">
+<image src="/images/serve1.png"></image>
+<view>预约订单</view>
+</view>
+<view  class="box" bindtap="toCompany">
+<image src="/images/serve2.png"></image>
+<view>公司介绍</view>
+</view>
+<view  class="box">
+<image src="/images/serve3.png"></image>
+<view>联系客服</view></view>
+<view  class="box">
+<image src="/images/serve4.png"></image>
+<view>合作品牌</view></view>
+</view>
+
+</view>
+
+<!-- 推荐 -->
+
+<view  class="tuijian">
+<text>推荐</text>
+<view class="tuijian_list">
+<view class="tuijian_box">
+<image src="/images/atlas.png"></image>
+<view>客厅北欧风格装修灵感图 配色搭配</view>
+</view>
+
+<view class="tuijian_box">
+<image src="/images/atlas.png"></image>
+<view>客厅北欧风格装修灵感图 配色搭配</view>
+</view>
+</view>
+
+</view>
+</view>

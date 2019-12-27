@@ -1,0 +1,44 @@
+/* pages/guanzhu/index.wxss */
+
+ .guanzhu .guanzhu_list{
+   width: 674rpx;
+   height: 220rpx;
+   /* background-color: red; */
+margin: 42rpx  26rpx 0 30rpx;
+display: flex;
+
+ }
+
+ .guanzhu_list  image{
+ width: 180rpx;
+ height: 220rpx
+ }
+
+  .guanzhu_list .introduce{
+width: 464rpx;
+height: 220rpx;
+margin-left: 30rpx;
+/* background-color: yellow */
+  }
+  .guanzhu_list .introduce view:nth-child(1){
+font-size: 32rpx;
+font-weight:bold;
+color: #0A0A0A;
+width:120rpx;
+height:40rpx;
+line-height:60rpx;
+  }
+    .guanzhu_list .introduce view:nth-child(2){
+  width: 260rpx;
+  height: 30rpx;
+  margin: 32rpx 0 44rpx;
+  /* background-color: blanchedalmond */
+    }
+
+    .guanzhu_list .introduce view:nth-child(3){
+      width: 466rpx;
+      height: 70rpx;
+      /* background-color: blue; */
+      font-size: 26rpx;
+      overflow: hidden
+    }

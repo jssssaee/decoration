@@ -1,0 +1,60 @@
+<!--pages/goods_cate/goods_cate.wxml-->
+<!-- <text>pages/goods_cate/goods_cate.wxml</text> -->
+<navbar parameter='{{parameter}}'></navbar>
+
+<view class="goods_cate">
+<view class="goods_title">
+<view class="name {{show1==true?'on':''}}" bindtap="change_show1">全屋定制</view>
+<view class="name {{show2==true?'on':''}}" bindtap="change_show2">局部改造</view>
+<view class="name {{show3==true?'on':''}}" bindtap="change_show3">旧屋改造</view>
+</view>
+<!-- 全屋定制 -->
+<view class="cate_detail" wx:if="{{id==1}}">
+<view class="details" wx:for="{{detail_arr}}" data-id="{{index}}" bindtap="toCase_detail">
+<image class="img_show" src="{{item.url}}">
+</image>
+<view class="intro1">{{item.intro1}}</view>
+<view class="intro2">{{item.intro2}}</view>
+<view class="intro3">
+<image src="/images/collect.png" class="tubiao1" ></image>
+<text>324</text>
+<image src="/images/watch.png" class="tubiao2"></image>
+<text>3000浏览</text>
+</view>
+</view>
+</view>
+
+<!-- 局部改造 -->
+<view class="cate_detail" wx:if="{{id==2}}">
+<view class="details" wx:for="{{detail_arr2}}"  data-id="{{index}}" bindtap="toCase_detail2">
+<image class="img_show" src="{{item.url}}">
+</image>
+<view class="intro1">{{item.intro1}}</view>
+<view class="intro2">{{item.intro2}}</view>
+<view class="intro3">
+<image src="/images/collect.png" class="tubiao1" ></image>
+<text>324</text>
+<image src="/images/watch.png" class="tubiao2"></image>
+<text>3000浏览</text>
+</view>
+</view>
+</view>
+<!-- 旧屋改造 -->
+<view class="cate_detail" wx:if="{{id==3}}">
+<view class="details" wx:for="{{detail_arr3}}" data-id="{{index}}" bindtap="toCase_detail3">
+<image class="img_show" src="{{item.url}}">
+</image>
+<view class="intro1">{{item.intro1}}</view>
+<view class="intro2">{{item.intro2}}</view>
+<view class="intro3">
+<image src="/images/collect.png" class="tubiao1" ></image>
+<text>324</text>
+<image src="/images/watch.png" class="tubiao2"></image>
+<text>3000浏览</text>
+</view>
+</view>
+</view>
+
+
+
+</view>

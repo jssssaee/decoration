@@ -1,0 +1,38 @@
+<!--pages/designer/index.wxml-->
+<navbar    parameter="{{parameter}}"></navbar>
+
+<view class="designer">
+<view class="designer_list" wx:for="{{design_arr}}">
+<view class="designer_name">
+ <image src="{{item.url}}" bindtap="toDetail" data-id="{{index}}"></image>
+ <view class="name">
+ <view class="work_time">
+ <text>{{item.name}}</text>
+ <text>{{item. experice}}</text>
+ </view>
+ <view class="position">{{item.position}}</view>
+ </view>
+ <text class="guanzhu" bindtap="toGuanzhu" data-id="{{index}}">{{item.add}}</text>
+</view>
+
+<view class="designer_work">
+<view class="work">
+<image src="{{item.img1}}" ></image>
+<view>地中海风格…</view>
+<view>全屋定制/一室</view>
+</view>
+<view class="work">
+<image src="{{item.img2}}"></image>
+<view>新中式风格…</view>
+<view>全屋定制/三室</view>
+</view>
+<view class="work">
+<image src="{{item.img3}}"></image>
+<view>北欧风格…</view>
+<view>半包定制/两室</view>
+</view>
+</view>
+</view>
+
+
+</view>

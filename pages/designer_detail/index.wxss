@@ -1,0 +1,102 @@
+/* pages/designer_detail/index.wxss */
+.detail image{
+  width: 100%;
+  height: 750rpx
+}
+
+.detail_infor{
+width: 100%;
+height: 966rpx;
+background-color: #FFFFFF;
+border-radius:20px 20px 0px 0px;
+position: absolute;
+margin-top: -250rpx;
+z-index: 99
+
+}
+
+
+
+.designer_name{
+width: 610rpx;
+height: 150rpx;
+margin-top:48rpx;
+margin-left: 40rpx;
+display: flex;
+align-items: center
+
+}
+
+ .designer_name image{
+  width: 150rpx;
+  height: 150rpx
+}
+ .designer_name .name{
+  width: 288rpx;
+  height: 120rpx;
+
+margin-left: 32rpx;
+
+
+}
+
+.designer_name .name .work_time{
+  width: 288rpx;
+  height: 40rpx;
+
+
+
+
+}
+.name .work_time text:nth-child(1) {
+  display: inline-block;
+  font-size: 32rpx;
+  color: #0A0A0A;
+padding-right: 16rpx;
+  /* margin-top: 10rpx */
+}
+
+.name .work_time text:nth-child(2){
+    display: inline-block;
+  font-size: 28rpx;
+  color: #333333;
+  /* margin-top: 10rpx */
+}
+ .designer_name .name .position{
+  width: 100%;
+  height: 60rpx;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+margin-top:22rpx
+}
+.guanzhu{
+  color: #2AA094;
+  font-size: 30rpx;
+  margin-left: 50rpx;
+  letter-spacing: -2rpx
+}
+
+
+.detail_infor .analyse{
+  margin: 140rpx 30rpx 246rpx 56rpx;
+  width: 666rpx;
+  height: 292rpx;
+  font-size: 28rpx;
+  color: #525156;
+  line-height: 44rpx;
+  text-indent: 56rpx
+}
+
+ .detail_infor .consult{
+   width: 100%;
+   height: 120rpx;
+   background-color: #2AA094;
+   font-size: 38rpx;
+   color: #FFFFFF;
+   text-align: center;
+   line-height: 120rpx;
+
+ }

@@ -1,0 +1,116 @@
+/* pages/styleDetail/index.wxss */
+
+
+.style-detail{
+  width: 750rpx;
+height: 1624rpx;
+}
+.style-detail .back_img{
+width: 750rpx;
+height: 1624rpx;
+/* position: fixed;
+top:0;
+left: 0 */
+}
+
+ .icon-xiangzuo{color:#000;font-weight:bold;position:absolute;font-size:40rpx;left:46rpx;width:100rpx;height:56rpx;line-height:54rpx;top:108rpx;transform:translateY(-50%);}
+
+ .bottom{
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 750rpx;
+   height: 176rpx;
+   background-color: #000000;
+   box-shadow:0px 3px 13px 0px rgba(0, 0, 0, 0.15);
+ opacity:0.62;
+ display: flex
+ }
+
+ .bottom .box_left{
+   width: 350rpx;
+   height: 124rpx;
+   /* background-color: red; */
+margin: 26rpx 0 28rpx 32rpx
+ }
+
+
+ .bottom .box_left .text{
+   font-size: 30rpx;
+   color: #FFFFFF;
+   width: 350rpx;
+   height: 30rpx;
+   letter-spacing: -2rpx
+ }
+
+
+.bottom .box_left .left2{
+  width: 336rpx;
+  height: 58rpx;
+  margin: 36rpx auto 0;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-between
+}
+
+.bottom .box_left .left2 view{
+  width: 148rpx;
+  height: 58rpx;
+  background-color: #737373;
+  opacity:0.49;
+border-radius:28rpx;
+text-align: center;
+line-height: 58rpx;
+color: #FFFFFF
+}
+ .bottom .box_right{
+   width: 180rpx;
+   height: 80rpx;
+   /* background-color: yellow; */
+   margin: 84rpx 60rpx 24rpx 124rpx;
+   display: flex;
+   justify-content: space-between
+
+ }
+
+  .bottom .box_right .zan,  .bottom .box_right .zhuanfa {
+    width: 48rpx;
+    height: 80rpx;
+    /* background-color: red; */
+  }
+
+   .bottom .box_right .zan .img{
+       width: 30rpx;
+     height: 30rpx;
+     margin: 0 auto;
+     margin-bottom: 20rpx
+   }
+   .bottom .box_right .zan image{
+     width: 30rpx;
+     height: 30rpx;
+ 
+   }
+.bottom .box_right .zan .text{
+  font-size: 26rpx;
+  color: #FFFFFF;
+  height: 26rpx
+}
+
+
+   .bottom .box_right .zhuanfa .img{
+       width: 30rpx;
+     height: 30rpx;
+     margin: 0 auto;
+     margin-bottom: 20rpx
+   }
+    .bottom .box_right .zhuanfa image{
+     width: 30rpx;
+     height: 30rpx
+   }
+
+   .bottom .box_right .zhuanfa .text{
+  font-size: 26rpx;
+  color: #FFFFFF;
+  height: 26rpx;
+  letter-spacing: -2rpx
+}

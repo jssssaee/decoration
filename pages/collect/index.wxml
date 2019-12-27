@@ -1,0 +1,25 @@
+<!--pages/ collect/index.wxml-->
+<navbar parameter="{{parameter}}"></navbar>
+
+<view class="collect">
+<view class="collect_title">
+<view class="name {{show1==true?'on':''}}" bindtap="change1">装修案例</view>
+<view class="name {{show2==true?'on':''}}" bindtap="change2">灵感图集</view>
+<view class="name {{show3==true?'on':''}}" bindtap="change3">装修攻略</view>
+<view class="name {{show4==true?'on':''}}" bindtap="change4">装修风格</view>
+</view>
+
+<view wx:if="{{key==1}}" class="collect_list">
+
+<view wx:for="{{collect_arr}}" class="list_img">
+<image src="{{item.url}}"></image>
+
+</view>
+
+
+</view>
+
+
+
+
+</view>

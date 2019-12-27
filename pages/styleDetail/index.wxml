@@ -1,0 +1,29 @@
+<!--pages/styleDetail/index.wxml-->
+<!-- <navbar parameter="{{parameter}}"> </navbar> -->
+
+<view class="style-detail">
+
+<image src="{{obj.url}}" class="back_img"></image>
+             <view class='iconfont icon-xiangzuo {{parameter.color==true?"on":""}}' bindtap='return'></view>
+
+<view class="bottom">
+<view class="box_left">
+<view class="text">客厅北欧装修风格装饰搭配</view>
+<view class="left2">
+  <view>北欧风格</view>
+  <view>客厅</view>
+</view>
+</view>
+<view class="box_right">
+<view class="zan">
+<view class="img"><image src="/images/collect.png"></image></view>
+<view class="text">324</view>
+</view>
+<view class="zhuanfa">
+<view class="img"><image src="/images/zhuanfa.png"></image></view>
+<view class="text">转发</view>
+</view>
+</view>
+</view>
+
+</view>

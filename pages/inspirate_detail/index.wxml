@@ -1,0 +1,7 @@
+<!--pages/inspirate_detail/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+<view class="inspirate_detail">
+
+<image src="{{item}}" wx:for="{{inspirate_arr}}"></image>
+
+</view>

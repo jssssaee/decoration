@@ -1,0 +1,36 @@
+/* pages/ collect/index.wxss */
+
+.collect .collect_title{
+width: 690rpx;
+height: 70rpx;
+display: flex;
+align-items: center;
+margin: 32rpx auto 0
+}
+
+.collect .collect_title view{
+  width: 172rpx;
+  height: 70rpx;
+  text-align: center;
+  line-height: 70rpx
+}
+
+.collect .collect_title .name.on{
+    background-color: #2AA094;
+  border-radius: 30rpx;
+  color: #FEFEFE
+}
+
+
+.collect_list{
+width: 690rpx;
+margin: 40rpx auto 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between
+}
+.list_img image{
+  width: 336rpx;
+  height: 350rpx;
+  margin-bottom: 36rpx
+}

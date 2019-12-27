@@ -1,0 +1,164 @@
+/* pages/quote/index.wxss */
+
+.quote image {
+  width: 100%;
+  height: 1448rpx;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -1;
+  top: 136rpx;
+  left: 0;
+}
+
+.quote  .big_title {
+  width: 450rpx;
+  height: 48rpx;
+  font-size: 50rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  line-height: 60rpx;
+  margin-top: 180rpx;
+  margin-left: 52rpx;
+}
+
+.quote .title2 {
+  width: 220rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  line-height: 60rpx;
+  margin-top: 50rpx;
+  margin-left: 52rpx;
+}
+
+.input_infor {
+  width: 650rpx;
+  /* height: 90rpx; */
+  margin: 132rpx auto 0;
+}
+
+.quote_house {
+  display: flex;
+}
+
+.input_infor .text {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #fefefe;
+  font-family: PingFang-SC-Regular;
+}
+
+.baseinfo-input {
+  width: 360rpx;
+  height: 90rpx;
+  border: 2rpx solid #000;
+  margin-bottom: 23rpx;
+  background: #fff;
+  overflow: hidden;
+}
+
+.baseinfo-input:hover {
+  border: 2rpx solid #2aa094;
+}
+
+.baseinfo-input input {
+  font-size: 24rpx;
+  width: 300rpx;
+  height: 90rpx;
+  line-height: 72rpx;
+  color: #999;
+  background: #fff;
+  margin-left: 20rpx;
+}
+
+.baseinfo-input  .input_addr {
+  width: 300rpx;
+  float: left;
+}
+
+.addr_choose {
+  float: left;
+  width: 0;
+  height: 0;
+  border-left: 12rpx solid transparent;
+  border-right: 12rpx solid transparent;
+  border-top: 16rpx solid #999;
+  margin-top: 38rpx;
+}
+
+.quote_house .text2 {
+  margin-left: 60rpx;
+}
+
+.baseinfo-input2 {
+  width: 230rpx;
+  height: 90rpx;
+  border: 2rpx solid #000;
+  margin-bottom: 42rpx;
+  margin-left: 60rpx;
+  background: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.baseinfo-input2:hover {
+  border: 2rpx solid #2aa094;
+}
+
+.baseinfo-input2 input {
+  font-size: 24rpx;
+  width: 140rpx;
+  height: 90rpx;
+  line-height: 72rpx;
+  color: #999;
+  background: #fff;
+  margin-left: 20rpx;
+}
+
+.addr_choose2 {
+  display: inline-block;
+  font-size: 30rpx;
+  color: #0a0a0a;
+  width: 26rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+}
+
+.input_infor .text3 {
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  color: #fefefe;
+  font-family: PingFang-SC-Regular;
+}
+
+.baseinfo-input3 {
+  border: 2rpx solid #000;
+  margin-bottom: 68rpx;
+  background: #fff;
+  overflow: hidden;
+}
+
+.baseinfo-input3:hover {
+  border: 2rpx solid #2aa094;
+}
+
+.baseinfo-input3 input {
+  font-size: 24rpx;
+  width: 650rpx;
+  height: 90rpx;
+  line-height: 72rpx;
+  color: #999;
+  background: #fff;
+  margin-left: 40rpx;
+}
+
+.btn {
+  width: 650rpx;
+  height: 90rpx;
+  background-color: #2aa094;
+  color: #fefefe;
+  font-size: 36rpx;
+}

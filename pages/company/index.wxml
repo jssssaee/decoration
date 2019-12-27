@@ -1,0 +1,13 @@
+<!--pages/ company/index.wxml-->
+<navbar parameter="{{parameter}}"></navbar>
+
+<view class="company">
+<image src="/images/atlas.png"></image>
+
+<view class="circle"></view>
+
+<view class="company_infor">
+<view>公司介绍内容</view>
+</view>
+
+</view>

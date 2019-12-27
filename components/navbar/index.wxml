@@ -1,0 +1,24 @@
+<!--components/navbar/index.wxml-->
+<view class='navbar' style='height:{{navH}}rpx'>
+  <view class='navbarH' style='height:{{navH}}rpx' >
+     <view class='navbarCon ' wx:if='{{parameter.navbar==1}}'>
+         <view class='name {{parameter.color==true?"on":""}} line1'>{{parameter.title}}</view>
+         <view class='iconfont icon-xiangzuo {{parameter.color==true?"on":""}}' wx:if='{{parameter.return==1}}' bindtap='return'></view>
+      </view>
+   <view class='navbarCon' wx:if='{{parameter.navbar==0}}'>
+    <text class="addr">成都</text>
+       <view class="more"><image src="/images/more.png"></image></view>
+      <view class="input">
+        <image src="/images/search.png"></image>
+     搜索商品
+          </view>
+      </view> 
+
+   </view>
+
+
+</view>
+
+
+<view style='height:{{navH}}rpx'></view>
+

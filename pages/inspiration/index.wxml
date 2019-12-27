@@ -1,0 +1,20 @@
+<!--pages/inspiration/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+<view>
+
+<view class="atlas_list">
+  <view class="atlas_case" wx:for="{{atlas_arr}}" bindtap="toInspirate_Detail" data-id="{{index}}">
+  <image src="{{item.url}}"></image>
+  <view class="atlas_intro">{{item.title}}</view>
+   <view class="atlas_pic">
+  <view class="atlas_pic_img">
+  <image src="/images/collect.png"></image>
+  </view>
+  <text>324</text>
+   <view class="atlas_pic_classify">客厅</view>
+ </view>
+</view>
+</view>
+
+
+</view>

@@ -1,0 +1,79 @@
+/* pages/yuyue/index.wxss */
+.yuyue image{
+ width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  top: 136rpx;
+  left: 0
+}
+
+
+.yuyue .yuyue_title{
+  width: 308rpx;
+  height: 174rpx;
+  font-size: 76rpx;
+  color: #FEFEFE;
+  line-height:94rpx;
+  font-family: PingFang-SC-Bold;
+  letter-spacing: 0;   
+  margin: 74rpx auto 46rpx
+}
+
+.yuyue .yuyue_text{
+  font-size: 30rpx;
+  color: #FEFEFE;
+display:flex;
+align-items:center;
+justify-content:center;
+
+}
+
+
+.yuyue_infor{
+  width: 650rpx;
+  /* height: 90rpx; */
+  margin:132rpx  auto 0
+
+}
+
+.yuyue_infor .text{
+margin-bottom: 20rpx;
+font-size: 30rpx;
+color: #FEFEFE;
+font-family: PingFang-SC-Regular
+}
+
+.baseinfo-input {
+    border: 2rpx solid #000;
+    margin-bottom: 23rpx;
+    background: #ffffff;
+    overflow: hidden;
+ width: 650rpx;
+}
+
+.baseinfo-input:hover{
+      border: 2rpx solid #2AA094;
+}
+
+
+picker{
+  display:inline-block;
+   width: 50%;
+   height: 90rpx;
+}
+
+.baseinfo-input input {
+    font-size: 24rpx; width:550rpx; height: 90rpx; line-height: 72rpx; color: #999999; background: #ffffff;
+margin-left: 40rpx
+}
+ .baseinfo-input  .input_addr{
+   width:550rpx;
+   float:left
+}
+.addr_choose{
+  float: right;margin-right: 28rpx; width: 0;height: 0;border-left: 12rpx solid transparent;border-right: 12rpx solid transparent;border-top: 16rpx solid #999999;margin-top: 38rpx
+}
+.gujia{width: 650rpx;height: 90rpx;background-color: #2AA094;font-size: 36rpx;color: #FEFEFE; margin: 88rpx auto 226rpx;text-align: center;line-height: 90rpx
+}

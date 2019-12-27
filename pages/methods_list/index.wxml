@@ -1,0 +1,22 @@
+<!--pages/methods_list/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+<view class="list_infor">
+
+
+ <view wx:for="{{hot_arr}}" class="hot_list" data-id="{{index}}" bindtap="toMethod_detail">
+ <image src="{{item.url}}"></image>
+ <view class="hot_main">
+ <view>{{item.title1}}</view>
+ <view>{{item.title2}}</view>
+
+ <view class="intro3">
+ <image src="{{item.icon1}}" class="tubiao1" ></image>
+<text>324</text>
+<image src="{{item.icon2}}" class="tubiao2"></image>
+<text>3000浏览</text>
+ </view>
+ </view>
+  </view>
+
+
+</view>

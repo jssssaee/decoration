@@ -1,0 +1,109 @@
+/* components/lingan_pic/index.wxss */
+
+.atlas text{
+ 
+     color: #0A0A0A;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  margin-left: 30rpx
+}
+.atlas_list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content:space-between;
+  width: 690rpx;
+  height: 2000rpx;
+margin: 50rpx auto 0
+}
+
+ .atlas_list .atlas_case{
+margin-bottom: 63rpx
+}
+.atlas_list>.atlas_case:nth-child(1){
+  width: 335rpx;
+  height: 508rpx
+}
+
+.atlas_list>.atlas_case:nth-child(1) image{
+    width: 335rpx;
+  height: 350rpx
+}
+
+
+.atlas_list>.atlas_case:nth-child(n+2){
+  width: 335rpx;
+  height: 604rpx
+}
+
+.atlas_list>.atlas_case:nth-child(n+2) image{
+    width: 335rpx;
+  height: 446rpx
+}
+
+
+
+.atlas_list>.atlas_case:nth-child(3) {
+  width: 335rpx;
+  height: 508rpx
+}
+
+.atlas_list>.atlas_case:nth-child(3) image{
+    width: 335rpx;
+   height: 350rpx
+}
+
+.atlas_list>.atlas_case:nth-child(6) {
+  width: 335rpx;
+  height: 508rpx
+}
+
+.atlas_list>.atlas_case:nth-child(6) image{
+    width: 335rpx;
+   height: 350rpx
+}
+
+.atlas_list .atlas_case .atlas_intro{
+  width: 311rpx;
+  height: 64rpx;
+  font-size: 30rpx;
+  color: #0D0D0D;
+  font-weight: Regular;
+  font-family: PingFang-SC-Regular;
+   letter-spacing:-2rpx;
+line-height: 35rpx;
+margin: 30rpx  17rpx 24rpx 7rpx
+
+}
+
+.atlas_list .atlas_case .atlas_pic{
+ display: flex;
+ width: 100%;
+ height: 40rpx;
+ line-height: 40rpx
+}
+
+.atlas_list .atlas_case .atlas_pic image{
+  width: 21rpx;
+  height: 20rpx;
+}
+
+.atlas_list .atlas_case .atlas_pic text{
+  font-size: 24rpx;
+  color: #999999;
+  margin-left: 15rpx;
+  font-weight: Regular;
+  font-family: PingFang-SC-Regular
+}
+
+.atlas_list .atlas_case .atlas_pic  .atlas_pic_classify{
+width: 80rpx;
+height: 40rpx;
+border: 1rpx solid #CDCDCD;
+box-sizing: border-box;
+margin-left: 155rpx;
+font-size: 24rpx;
+color: #999999;
+text-align: center
+}

@@ -1,0 +1,14 @@
+<!--pages/decoration_style/index.wxml-->
+<navbar parameter="{{parameter}}"></navbar>
+<!-- style -->
+<view class="decoration_style">
+<view class="style">
+<scroll-view class="lunbo" scroll-x  style="width:auto;">
+<image wx:for="{{stylearr}}" id="{{stylearr.id}}" src="{{item.url}}" wx:key="{{index}}"></image>
+</scroll-view >
+</view>
+<!-- 北欧风格 -->
+
+<lingan></lingan>
+
+</view>

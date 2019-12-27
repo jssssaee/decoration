@@ -1,0 +1,62 @@
+/* pages/methods_list/index.wxss */
+
+.list_infor .hot_list{
+      width: 690rpx;
+      height: 210rpx;
+      margin: 22rpx auto 0;
+      /* background-color: red; */
+      margin-bottom: 40rpx;
+      display: flex
+    }
+   .list_infor .hot_list image{
+ width: 320rpx;
+ height: 210rpx
+     }
+    
+   .list_infor .hot_list  .hot_main{
+width:345rpx;
+height: 210rpx;
+margin-left: 26rpx;
+/* background-color: yellow */
+   }
+
+.hot_main view:nth-child(1){
+  font-size: 30rpx;
+  color: #0D0D0D;
+  width:328x;
+height:74rpx;
+line-height:22px;
+margin-bottom:34rpx;
+font-weight:bold;
+}
+
+
+.hot_main view:nth-child(2){
+  font-size: 24rpx;
+  color: #999999;
+  border: 1px solid #999999;
+  width: 80rpx;
+  height:40rpx;
+  line-height: 40rpx;
+ text-align: center;
+margin-bottom: 26rpx
+}
+
+
+     .hot_main .intro3 .tubiao1 {
+width: 22rpx;
+height: 20rpx;
+margin-right: 16rpx
+}
+   .hot_main .intro3 .tubiao2 {
+width: 22rpx;
+height: 20rpx;
+margin-left:54rpx;
+margin-right: 8rpx
+}
+    .hot_main  .intro3 text{
+  font-size: 24rpx;
+  color: #999999;
+
+}
+    

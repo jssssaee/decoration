@@ -1,0 +1,43 @@
+<!--pages/ caseDetail/index.wxml-->
+<navbar parameter="{{parameter}}"></navbar>
+<view class="caseDetail">
+<image src="{{obj.url}}" class="img"></image>
+
+<view class="infor">
+<view class="intro1">{{obj.intro1}}</view>
+<view class="intro2">{{obj.intro2}}</view>
+<view class="main">{{main}}</view>
+
+<view class="bottom">
+
+<view  class="bottom1">
+<view class="box1">
+<view class="img1">
+<image src="/images/watch.png"></image>
+</view>
+<view class="text1">3560</view>
+</view>
+
+<view class="box2">
+<view class="img2">
+<image src="/images/collect.png"></image>
+</view>
+<view class="text2">收藏</view> 
+</view>
+<view class="box3">
+<view class="img3">
+<image src="/images/serve3.png"></image>
+</view>
+<view class="text3">联系客服</view> 
+</view>
+<view  class="btn">
+免费报价
+</view>
+</view>
+
+</view>
+
+
+ </view>
+
+</view>

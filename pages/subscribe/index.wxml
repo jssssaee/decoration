@@ -1,0 +1,14 @@
+<!--pages/ subscribe/index.wxml-->
+<navbar parameter="{{parameter}}"></navbar>
+
+<view class="subscribe">
+
+<view class="img">
+<image src="/images/no_order.png"></image>
+</view>
+
+
+<view class="infor">您没有预约量房订单！</view>
+
+<view class="order">立即申请预约量房</view>
+</view>

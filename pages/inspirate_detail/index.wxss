@@ -1,0 +1,14 @@
+/* pages/inspirate_detail/index.wxss */
+
+.inspirate_detail {
+  display: flex;
+  flex-wrap: wrap
+}
+.inspirate_detail  image{
+  width: 750rpx;
+  height: 435rpx
+}
+
+.inspirate_detail  image:nth-child(1){
+  margin-top: 32rpx
+}

@@ -1,0 +1,12 @@
+<!--pages/methods_detail/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+
+<view class="method_detail">
+<image src="{{obj.url}}"></image>
+
+<view class="infor">
+<view class="intro1">{{obj.title1}}</view>
+<view class="intro2">{{obj.title2}}</view>
+<view class="main">{{main}}</view>
+</view>
+</view>

@@ -1,0 +1,151 @@
+/* pages/user/user.wxss */
+.user_main .header{
+  width: 652rpx;
+  height: 150rpx;
+/* background-color: red; */
+margin: 80rpx 34rpx 74rpx 64rpx;
+  display: flex;
+}
+
+.pic_txt{
+  width:520rpx;
+  height: 150rpx;
+  /* background-color: yellow; */
+  display: flex;
+    align-items: center;
+}
+.pic_txt .user_head{
+  width:150rpx;
+  height: 150rpx
+}
+
+.pic_txt .text{
+  width: 336rpx;
+  height: 128rpx;
+  /* background-color: blanchedalmond; */
+  margin-left: 50rpx
+}
+.pic_txt .text .id{
+font-size: 60rpx;
+color: #0A0A0A;
+font-family: PingFang-SC-Bold;
+height: 56rpx;
+font-weight: Bold; 
+margin-bottom: 42rpx
+
+}
+
+.pic_txt .text  .phone{
+  font-size: 30rpx;
+  color: #333333;
+  height: 28rpx
+}
+
+.header .set{
+   width: 42rpx;
+  height: 40rpx;
+margin-top: 22rpx;
+margin-left: 90rpx
+}
+.header .set image{
+  width: 42rpx;
+  height: 40rpx;
+
+}
+
+.guanzhu_collect{
+  width: 186rpx;
+  height: 86rpx;
+  margin-left: 66rpx;
+  display: flex;
+  margin-bottom: 106rpx
+}
+.guanzhu_collect>view:nth-child(1){
+  width: 56rpx;
+  /* height: 86rpx; */
+  margin-right: 70rpx;
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 60rpx
+
+}
+
+.guanzhu_collect >view:nth-child(2){
+    width: 56rpx;
+  height: 86rpx;
+    font-size: 28rpx;
+  color: #333333;
+  line-height: 60rpx;
+  text-align: center
+}
+
+
+
+.serve text{
+width:72rpx;
+height:36rpx;
+font-size:38rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(13,13,13,1);
+line-height:36px;
+margin-left: 30rpx;
+
+}
+.serve_infor{
+width: 678rpx;
+height: 102rpx;
+
+margin: 90rpx auto 100rpx;
+  display: flex;
+  justify-content: space-between
+}
+.serve_infor .box{
+  width: 116rpx;
+  height: 102rpx;
+font-size: 28rpx;
+color:#0A0A0A;
+text-align: center;
+}
+
+.serve_infor .box image{
+  width: 42rpx;
+  height: 40rpx;
+  margin-bottom: 40rpx
+}
+
+
+.tuijian text{
+width:72rpx;
+height:36rpx;
+font-size:38rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(13,13,13,1);
+line-height:36px;
+margin-left: 30rpx;
+
+}
+
+
+
+.tuijian .tuijian_list{
+  width: 690rpx;
+  margin:50rpx auto 0;
+  display: flex;
+font-size:15px;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(13,13,13,1);
+line-height:17px;
+justify-content: space-between
+}
+
+
+.tuijian_box{
+  width: 336rpx;
+}
+.tuijian  .tuijian_list image{
+width: 336rpx;
+height: 350rpx
+}

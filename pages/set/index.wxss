@@ -1,0 +1,67 @@
+/* pages/set/index.wxss */
+
+.pic_txt{
+  width:520rpx;
+  height: 150rpx;
+  /* background-color: yellow; */
+  display: flex;
+    align-items: center;
+    margin-left: 30rpx;
+    margin-top: 44rpx;
+    margin-bottom: 32rpx
+}
+.pic_txt .user_head{
+  width:150rpx;
+  height: 150rpx
+}
+
+.pic_txt .text{
+  width: 336rpx;
+  height: 128rpx;
+  /* background-color: blanchedalmond; */
+  margin-left: 50rpx
+}
+.pic_txt .text .id{
+font-size: 60rpx;
+color: #0A0A0A;
+font-family: PingFang-SC-Bold;
+height: 56rpx;
+font-weight: Bold; 
+margin-bottom: 42rpx
+
+}
+
+.pic_txt .text  .phone{
+  font-size: 30rpx;
+  color: #333333;
+  height: 28rpx
+}
+
+.blank{
+  width: 750rpx;
+  height: 20rpx;
+background-color: #F6F4F4
+}
+
+
+
+
+ .item{padding:46rpx 0 46rpx 0;border-bottom:1rpx solid #E6E6E6;margin-left:30rpx; margin-right:30rpx;color:#0A0A0A;
+ display: flex;
+ justify-content: space-between}
+
+.list .item:nth-child(2){
+border-bottom:1rpx solid transparent
+ }
+ .item .input{width:415rpx;text-align:right;color:#868686;}
+
+ .mybtn{
+width: 690rpx;
+height: 100rpx;
+background-color: #2AA094;
+margin: 74rpx auto;
+border-radius: 45rpx;
+color: #FFFEFE;
+font-size: 34rpx;
+line-height: 100rpx
+ }

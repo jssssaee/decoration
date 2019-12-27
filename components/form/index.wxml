@@ -1,0 +1,71 @@
+<!--components/form/index.wxml-->
+<view class="quote">
+<image src="{{form_style.back_img}}"></image>
+<view class="big_title">{{form_style.title1}}</view>
+<view class="title2">{{form_style.title2}}</view>
+
+<!-- form -->
+
+   <form bindreset="formReset" bindsubmit="formSubmit" reportSubmit="true">
+<view class="input_infor">
+<!-- house -->
+<view wx:if="{{ form_style.status==0}}" >
+
+ <view class="text">房屋所在城市</view>
+                <view class="baseinfo-input1">
+                 <picker mode="region" bindchange="bindRegionChange"  custom-item="{{customItem}}"
+                    name="detailed"  class="pic"  >
+                    <input name="detail" placeholder="四川省 成都市 锦江区" placeholderClass="placeholder-s" type="text" value="{{detailed}}"  class="input_addr"></input>
+                    <text class="addr_choose">
+                    </text>
+          </picker>
+                </view>
+</view>
+
+<view class="quote_house" wx:if="{{  form_style.status==1}}">
+
+  <view>
+  
+  <view class="text">房屋所在城市</view>
+                <view class="baseinfo-input">   
+                 <picker mode="region" bindchange="bindRegionChange"  custom-item="{{customItem}}"
+                    name="detailed"  class="pic"  >
+
+                    <input name="detail" placeholder="四川省 成都市 锦江区" placeholderClass="placeholder-s" type="text" value="{{detailed}}"  class="input_addr"></input>
+                    <text class="addr_choose">
+                    </text>
+
+                    </picker>
+                </view>
+                </view>
+
+                <view>
+                  <view class="text text2">房屋面积</view>
+                <view class="baseinfo-input2">       
+            
+                    <input name="area" placeholder="" placeholderClass="placeholder-s" type="text" value="{{area}}"  class="input_addr2"></input>
+                    <text class="addr_choose2">
+                  m²
+                    </text>
+                </view>
+
+                </view>
+
+</view>
+<!-- 电话 -->
+
+
+<view class="text3">联系电话</view>
+                <view class="baseinfo-input3">
+                    <input name="Cellphone" placeholder="" placeholderClass="placeholder-s" type="number" value="{{inputTel}}"></input>
+</view>
+
+</view>
+
+<button class="btn" formType="submit" size="default">{{form_style.title3}}</button>
+</form>
+
+
+
+</view>
+

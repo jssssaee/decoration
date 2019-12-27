@@ -1,0 +1,29 @@
+<!--pages/designer_detail/index.wxml-->
+<navbar parameter="{{parameter}}"> </navbar>
+<view class="detail" >
+<image src="/images/atlas.png"></image>
+<view class="detail_infor">
+
+<view class="designer_name">
+ <image src="{{obj.url}}" bindtap="toDetail" ></image>
+ <view class="name">
+ <view class="work_time">
+ <text>{{obj.name}}</text>
+ <text>{{obj. experice}}</text>
+ </view>
+ <view class="position">{{obj.position}}</view>
+ </view>
+ <text class="guanzhu" bindtap="toGuanzhu">+ 关注</text>
+</view>
+<!--  -->
+<view class="analyse">
+{{analyse}}
+  </view>
+
+
+<!--  -->
+
+<view class=" consult">免费咨询</view>
+</view>
+
+</view>

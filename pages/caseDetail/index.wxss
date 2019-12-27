@@ -1,0 +1,160 @@
+/* pages/ caseDetail/index.wxss */
+
+.caseDetail{
+  position: relative
+}
+.caseDetail .img{
+width: 750rpx;
+height: 480rpx;
+margin-top: 78rpx;
+}
+
+.caseDetail .infor{
+  width: 100%;
+  height: 1000rpx;
+  position: absolute;
+  top: 496rpx;
+border-radius:20px 20px 0px 0px;
+background-color: #FFFFFF
+}
+
+
+ .infor .intro1{
+font-size: 30rpx;
+color: #0D0D0D;
+font-weight: Bold;
+  margin-top: 80rpx;
+  margin-left:28rpx;
+  margin-bottom: 30rpx;
+width: 544rpx;
+height: 32rpx;
+letter-spacing: -2rpx
+}
+
+.infor  .intro2{
+font-size: 26rpx;
+color:#525156;
+font-weight: Regular;
+  margin-left:28rpx;
+  margin-bottom: 24rpx;
+width: 350rpx;
+height: 28rpx;
+letter-spacing: -2rpx
+}
+
+.infor .main{
+  width:333px;
+height:146px;
+font-size:14px;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(82,81,86,1);
+line-height:22px;
+margin: 128rpx 44rpx 66rpx 42rpx
+}
+
+ .caseDetail .bottom{
+  width: 690rpx;
+  height: 328rpx;
+  margin: 66rpx auto 0;
+  border: 2rpx solid transparent
+}
+
+.caseDetail .bottom1{
+width: 100%;
+height: 120rpx;
+/* background-color: red; */
+margin-top: 214rpx;
+}
+
+
+.caseDetail .bottom1{
+  display: flex;
+  align-items: center
+}
+
+.caseDetail .bottom1 .box1 {
+  width: 64rpx;
+  height:64rpx;
+margin-right: 75rpx;
+margin-left: 18rpx
+}
+
+
+ .img1{
+  width: 32rpx;
+  height: 23rpx;
+  margin: 0 auto 19rpx
+}
+.img1 image{
+  width: 32rpx;
+  height: 23rpx;
+  margin-bottom: 22rpx
+}
+
+.box1 .text1{
+  color: #525156;
+  font-size: 28rpx;
+  width: 64rpx;
+}
+
+
+.bottom1 .box2{
+  width: 54rpx;
+  height: 72rpx;
+  margin-right: 50rpx
+}
+
+.bottom1 .box2 .img2{
+    width: 32rpx;
+  height: 30rpx;
+    margin: 0 auto 14rpx
+}
+.bottom1 .box2 image{
+  width: 32rpx;
+  height: 30rpx;
+}
+
+.bottom1 .box2 .text2{
+  width:60rpx;
+  height: 30rpx;
+  font-size: 28rpx;
+  color: #525156;
+}
+
+
+
+.bottom1 .box3{
+  width: 112rpx;
+  height: 72rpx;
+  margin-right: 40rpx
+}
+
+.bottom1 .box3  .img3{
+    width: 32rpx;
+  height: 30rpx;
+  margin: 0 auto 14rpx
+}
+.bottom1 .box3 image{
+  width: 32rpx;
+  height: 30rpx;
+
+}
+
+.bottom1 .box3 .text3{
+  width:112rpx;
+  height: 30rpx;
+  font-size: 28rpx;
+  color: #525156;
+}
+
+.bottom1 .btn{
+  width: 276rpx;
+  height: 70rpx;
+  background-color: #FF5E45;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 70rpx;
+  border-radius: 36rpx
+}

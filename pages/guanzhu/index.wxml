@@ -1,0 +1,15 @@
+<!--pages/guanzhu/index.wxml-->
+<navbar parameter="{{parameter}}"> </navbar>
+<view class="guanzhu">
+<view class="guanzhu_list" wx:for="{{guanzhu_arr}}">
+<image src="{{item.url}}"></image>
+<view class="introduce">
+<view>{{item.name}}</view>
+<view>{{item.position}}</view>
+<view>{{item.experice}}简短的自我介绍，简短的自我介绍，简短的自我介绍，简短的自…</view>
+</view>
+</view>
+
+
+
+</view>

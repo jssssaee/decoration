@@ -1,0 +1,114 @@
+/* pages/designer/index.wxss */
+
+.designer_list{
+width: 690rpx;
+height: 560rpx;
+margin: 38rpx auto 62rpx;
+position: relative
+}
+
+.designer_list .designer_name{
+  position: absolute;
+width: 610rpx;
+height: 150rpx;
+top:48rpx;
+left: 40rpx;
+display: flex;
+align-items: center
+
+}
+
+.designer_list .designer_name image{
+  width: 150rpx;
+  height: 150rpx
+}
+.designer_list .designer_name .name{
+  width: 288rpx;
+  height: 120rpx;
+
+margin-left: 32rpx;
+
+
+}
+
+.designer_list .designer_name .name .work_time{
+  width: 288rpx;
+  height: 40rpx;
+
+
+
+
+}
+.name .work_time text:nth-child(1) {
+  display: inline-block;
+  font-size: 32rpx;
+  color: #0A0A0A;
+padding-right: 16rpx;
+  /* margin-top: 10rpx */
+}
+
+.name .work_time text:nth-child(2){
+    display: inline-block;
+  font-size: 28rpx;
+  color: #333333;
+  /* margin-top: 10rpx */
+}
+.designer_list .designer_name .name .position{
+  width: 100%;
+  height: 60rpx;
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+margin-top:22rpx
+}
+.guanzhu{
+  color: #2AA094;
+  font-size: 30rpx;
+  margin-left: 50rpx;
+  letter-spacing: -2rpx
+}
+
+
+.designer_list .designer_work{
+   position: absolute;
+width: 610rpx;
+height: 268rpx;
+top:238rpx;
+left: 40rpx;
+display: flex;
+justify-content: space-between
+}
+
+
+
+.designer_work view{
+width: 184rpx;
+/* height: 268rpx; */
+
+}
+
+.designer_work image{
+  width: 184rpx;
+  height: 170rpx
+}
+
+.designer_work  .work view:nth-child(2) {
+font-size: 30rpx;
+color: #0D0D0D;
+font-weight:400;
+width:100px;
+height:18px;
+letter-spacing: -2rpx;
+margin-top: 22rpx
+}
+
+.designer_work  .work view:nth-child(3){
+  font-size:26rpx;
+color: #525156;
+font-weight:400;
+letter-spacing: -2rpx;
+display: inline-block;
+margin-top: 18rpx;
+}

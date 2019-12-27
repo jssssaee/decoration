@@ -1,0 +1,4 @@
+<!--pages/house_style/index.wxml-->
+<navbar parameter='{{parameter}}'></navbar>
+
+<input_infor  form_style='{{form_style}}'> </input_infor>
